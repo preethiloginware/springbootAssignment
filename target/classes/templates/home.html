@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Spring Boot + Hibernate Assignment</title>
+
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+	integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	crossorigin="anonymous">
+	
+</head>
+<body>
+
+	<div class="container my-2">
+	<h1>Spring Boot + Hibernet Application form</h1>
+	
+	<a th:href = "@{/EmployeeForm}" class="btn btn-primary btn-sm mb-3" > Employee </a>
+	<a th:href = "@{/DependantForm}" class="btn btn-primary btn-sm mb-3"> Dependant </a>
+	<a th:href = "@{/EducationqualificationForm}" class="btn btn-primary btn-sm mb-3"> Education Qualification </a>
+		<table border="1" class = "table table-striped table-responsive-md">
+			<thead>
+			</thead>
+		</table>
+	</div>
+</body>
+</html>
